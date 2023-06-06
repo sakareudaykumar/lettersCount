@@ -1,0 +1,49 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.calculatorImage {
+  height: 400px;
+  width: 500px;
+}
+.heading {
+  color: #ffffff;
+  width: 200px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #ffffff;
+}
+.input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 6px;
+  color: #e4e7eb;
+  width: 250px;
+}
+.lettersCount {
+  color: #219a6f;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  height: 50px;
+  width: 150px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
